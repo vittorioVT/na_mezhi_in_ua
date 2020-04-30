@@ -3,9 +3,13 @@
     "",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\admin",
+    "\\src\\app\\admin\\shared",
+    "\\src\\app\\admin\\shared\\components",
+    "\\src\\app\\admin\\shared\\components\\admin-layout",
     "\\src\\assets",
     "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\app-routing.module.ts",
+  "SelectedNode": "\\src\\app\\admin\\admin.module.ts",
   "PreviewInSolutionExplorer": false
 }
