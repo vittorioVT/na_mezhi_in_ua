@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SharedModule } from '../shared/shared.module';
 import { HttpClient } from '@angular/common/http';
 
 import { AuthService } from './shared/services/auth.service';
@@ -14,11 +15,13 @@ import { EditPageComponent } from './edit-page/edit-page.component';
 
 
 
+
 @NgModule({
   declarations: [AdminLayoutComponent, LoginPageComponent, DashboardPageComponent, CreatePageComponent, EditPageComponent],
   imports: [
     CommonModule,
     FormsModule,
+    SharedModule,
     ReactiveFormsModule,
     RouterModule.forChild([
       {
