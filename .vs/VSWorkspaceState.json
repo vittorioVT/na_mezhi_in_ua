@@ -2,15 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app",
     "\\src\\app\\admin",
     "\\src\\app\\admin\\login-page",
     "\\src\\app\\admin\\shared",
-    "\\src\\app\\admin\\shared\\components\\admin-layout",
-    "\\src\\app\\home-page",
-    "\\src\\app\\post-page",
-    "\\src\\app\\shared\\components"
+    "\\src\\app\\admin\\shared\\services",
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\components",
+    "\\src\\app\\shared\\components\\post"
   ],
-  "SelectedNode": "\\src\\app\\admin\\login-page\\login-page.component.ts",
+  "SelectedNode": "\\src\\app",
   "PreviewInSolutionExplorer": false
 }
