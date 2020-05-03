@@ -2,14 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\app",
     "\\src\\app\\admin",
     "\\src\\app\\admin\\login-page",
     "\\src\\app\\admin\\shared",
-    "\\src\\app\\admin\\shared\\services",
     "\\src\\app\\shared",
-    "\\src\\app\\shared\\components",
-    "\\src\\app\\shared\\components\\post"
+    "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app",
+  "SelectedNode": "\\src\\app\\admin\\shared\\interfaces.ts",
   "PreviewInSolutionExplorer": false
 }
