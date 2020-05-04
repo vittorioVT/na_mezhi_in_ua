@@ -7,7 +7,7 @@ import { environment } from 'src/environments/environment';
 
 @Injectable()
 export class AuthService {
-  public errors$: Subject<string> = new Subject<string>();
+  public error$: Subject<string> = new Subject<string>();
 
   constructor(private http: HttpClient) { }
 
@@ -38,13 +38,13 @@ export class AuthService {
 
     switch (message) {
       case 'INVALID_EMAIL':
-        this.errors$.next('Неверный email');
+        this.error$.next('Неверный email');
         break
       case 'INVALID_PASSWORD':
-        this.errors$.next('Неверный пароль');
+        this.error$.next('Неверный пароль');
         break
       case 'EMAIL_NOT_FOUND':
-        this.errors$.next('Такого mail нет');
+        this.error$.next('Такого mail нет');
         break
     }
     
