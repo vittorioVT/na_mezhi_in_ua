@@ -25,14 +25,18 @@ export class CreatePageComponent implements OnInit {
     if (this.form.invalid) {
       return;
     }
+
+    const post: Post = {
+      title: this.form.value.title,
+      author: this.form.value.author,
+      text: this.form.value.text,
+      date: new Date()
+    }
+    console.log(post);
+
   }
 
-   post: Post = {
-    title: this.form.value.title,
-    author: this.form.value.author,
-    text: this.form.value.text,
-    date: new Date()
-  }
+  
 
 
 }

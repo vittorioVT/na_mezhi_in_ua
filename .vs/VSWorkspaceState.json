@@ -4,13 +4,19 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\admin",
-    "\\src\\app\\admin\\dashboard-page",
-    "\\src\\app\\admin\\login-page",
     "\\src\\app\\admin\\shared",
     "\\src\\app\\admin\\shared\\components",
     "\\src\\app\\admin\\shared\\components\\admin-layout",
-    "\\src\\app\\admin\\shared\\services"
+    "\\src\\app\\admin\\shared\\services",
+    "\\src\\app\\home-page",
+    "\\src\\app\\post-page",
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\components",
+    "\\src\\app\\shared\\components\\main-layout",
+    "\\src\\app\\shared\\components\\post",
+    "\\src\\assets",
+    "\\src\\environments"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\app\\shared\\components\\main-layout",
   "PreviewInSolutionExplorer": false
 }
