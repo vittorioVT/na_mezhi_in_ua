@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
+import { PostService } from 'src/app/shared/post.service';
 
 @Component({
   selector: 'app-edit-page',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EditPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute,
+    private postsService: PostService) { }
 
   ngOnInit(): void {
+    this.route.params.subscribe((params: Params) => {
+
+
+    })
+
   }
 
 }
