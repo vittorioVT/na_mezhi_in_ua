@@ -1,16 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\e2e\\src",
     "\\src",
     "\\src\\app",
     "\\src\\app\\admin",
-    "\\src\\app\\admin\\create-page",
-    "\\src\\app\\admin\\shared",
+    "\\src\\app\\admin\\dashboard-page",
     "\\src\\app\\admin\\shared\\services",
     "\\src\\app\\shared",
     "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\admin\\shared\\interfaces.ts",
+  "SelectedNode": "\\src\\app\\admin\\dashboard-page\\dashboard-page.component.scss",
   "PreviewInSolutionExplorer": false
 }
