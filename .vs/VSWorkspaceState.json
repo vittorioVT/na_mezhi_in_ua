@@ -4,13 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\admin",
-    "\\src\\app\\admin\\dashboard-page",
-    "\\src\\app\\admin\\edit-page",
     "\\src\\app\\admin\\shared",
+    "\\src\\app\\admin\\shared\\components",
+    "\\src\\app\\admin\\shared\\components\\alert",
     "\\src\\app\\admin\\shared\\services",
     "\\src\\app\\shared",
-    "\\src\\environments"
+    "\\src\\app\\shared\\components"
   ],
-  "SelectedNode": "\\src\\app\\admin\\dashboard-page\\dashboard-page.component.html",
+  "SelectedNode": "\\src\\app\\admin\\shared\\components\\alert\\alert.component.html",
   "PreviewInSolutionExplorer": false
 }
