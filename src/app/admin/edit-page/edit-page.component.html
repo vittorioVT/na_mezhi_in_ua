@@ -1,4 +1,4 @@
-<p>edit-page</p>
+
 <div *ngIf="form; else loading">
   <form [formGroup]="form" (ngSubmit)="submit()">
     <div class="form-control" [ngClass]="{invalid: form.get('title').touched && form.get('title').invalid}">
