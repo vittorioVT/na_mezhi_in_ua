@@ -2,15 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app",
-    "\\src\\app\\admin",
-    "\\src\\app\\admin\\shared",
-    "\\src\\app\\admin\\shared\\components",
-    "\\src\\app\\admin\\shared\\components\\alert",
-    "\\src\\app\\admin\\shared\\services",
-    "\\src\\app\\shared",
-    "\\src\\app\\shared\\components"
+    "\\src\\app"
   ],
-  "SelectedNode": "\\src\\app\\admin\\shared\\components\\alert\\alert.component.html",
+  "SelectedNode": "\\src\\index.html",
   "PreviewInSolutionExplorer": false
 }
