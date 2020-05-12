@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app"
+    "\\src\\app",
+    "\\src\\app\\shared\\components",
+    "\\src\\app\\shared\\components\\post"
   ],
-  "SelectedNode": "\\src\\index.html",
+  "SelectedNode": "\\src\\app\\post-page",
   "PreviewInSolutionExplorer": false
 }
