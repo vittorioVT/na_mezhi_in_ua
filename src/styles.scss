@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import "~quill/dist/quill.core.css";
 @import "~quill/dist/quill.snow.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
 
 :root {
   --primary-color: #dc3545;
@@ -83,6 +84,11 @@ img {
 
   &-content {
     margin-bottom: .5rem;
+  }
+  button{
+    max-width: 100px;
+    text-align: right;
+
   }
 }
 
